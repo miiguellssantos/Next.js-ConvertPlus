@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ConvertPlus
 
-## Getting Started
+**ConvertPlus** é um aplicativo de conversão de moedas que permite converter valores entre diferentes moedas e exibir informações sobre as moedas disponíveis.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Conversão de Moedas**: Converta valores entre diferentes moedas com base nas taxas de câmbio atuais.
+- **Listagem de Moedas**: Visualize a lista de todas as moedas suportadas com seus símbolos e códigos.
+- **Página de Detalhes da Moeda**: Veja detalhes específicos sobre cada moeda, incluindo a taxa de câmbio em relação ao USD.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React**: Biblioteca para construir a interface do usuário.
+- **Next.js 14**: Framework para React que oferece renderização do lado do servidor e geração de sites estáticos.
+- **Tailwind CSS**: Framework de CSS utilitário para estilização.
+- **API de Taxas de Câmbio**: Para obter as taxas de câmbio atuais.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instalação
 
-## Learn More
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/miiguellssantos/Next.js-ConvertPlus.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd Next.js-ConvertPlus
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Instale as dependências:
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+   
+##Uso
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Inicie o servidor de desenvolvimento
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
+   
+2. Abra o navegador e acesse http://localhost:3000 para visualizar o aplicativo.
 
-## Deploy on Vercel
+## Contribuição
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Sinta-se à vontade para abrir issues e enviar pull requests. Para contribuir, siga estas etapas:
+  1. Faça um fork do repositório.
+  2. Crie uma branch para sua feature ou correção.
+  3. Faça as mudanças e envie um pull request com uma descrição clara das alterações.
